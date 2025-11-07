@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6C63FF; /* main purple */
+  --color-accent: #9C88FF; /* lighter purple */
+  --color-bgLight: #FFFFFF; /* white background */
+  --color-textDark: #1E1E1E; /* dark text */
+  --color-muted: #6B7280; /* gray for secondary text */
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-bgLight);
+}
+/* Custom Scrollbar (middle feed only) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(150, 150, 150, 0.4);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(100, 100, 100, 0.6);
+}
+
