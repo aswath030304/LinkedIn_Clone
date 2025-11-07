@@ -6,7 +6,7 @@ import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import CreatePost from "./pages/CreatePost";
-import ForgotPassword from "./pages/ForgotPassword";
+import ForgotPassword from "./pages/Forgotpassword";
 import PostComments from "./pages/PostWithComments";
 import SearchPage from "./pages/SearchPage";
 import UserProfile from "./pages/UserProfile";
